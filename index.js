@@ -9,7 +9,7 @@ function mapToNegativize(sourcearray) {
 function mapToNoChange(sourcearray) {
   let arr= []
   for (let i = 0; i <  sourcearray.length; i++ ) {
-    arr.push( sourcearray[i])
+    arr[i]= sourcearray[i];
   }
    return arr
 }
