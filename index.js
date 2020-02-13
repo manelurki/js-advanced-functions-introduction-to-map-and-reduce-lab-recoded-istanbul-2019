@@ -7,13 +7,4 @@ mapToNegativize(sourceArray)
   }
   return arr;
 }
-  mapToNoChange(sourceArray)
-{}
-
-mapToDouble(sourceArray)
-{}
-mapToSquare(sourceArray)
-{}
-reduceToTotal(sourceArray, startingPoint){}
-reduceToAllTrue(sourceArray){}
-reduceToAnyTrue(sourceArray){}
+  
