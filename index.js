@@ -30,8 +30,8 @@ function mapToSquare( sourcearray) {
    return arr
 }
 
-function reduceToTotal( sourcearray, startingPoint) {
-  let total = startingPoint
+function reduceToTotal( sourcearray) {
+  let total = startingPoint=0;
   for (let i = 0; i <  sourcearray.length; i++ ) {
     total = total +  sourcearray
   }
