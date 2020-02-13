@@ -1,28 +1,28 @@
-function mapToNegativize(src) {
+function mapToNegativize(sourceArray) {
   let r = []
-  for (let i = 0; i < src.length; i++ ) {
-    r.push(-1 * src[i])
+  for (let i = 0; i < sourceArray.length; i++ ) {
+    r.push(-1 * sourceArray[i])
   }
   return r
 }
 
-function mapToNoChange(src) {
+function mapToNoChange(sourceArray) {
   let r = []
-  for (let i = 0; i < src.length; i++ ) {
-    r.push(src[i])
+  for (let i = 0; i < sourceArray.length; i++ ) {
+    r.push(sourceArray[i])
   }
   return r
 }
 
-function mapToDouble(src) {
+function mapToDouble(sourceArray) {
   let r = []
-  for (let i = 0; i < src.length; i++ ) {
-    r.push(2 * src[i])
+  for (let i = 0; i < sourceArray.length; i++ ) {
+    r.push(2 * sourceArray[i])
   }
   return r
 }
 
-function mapToSquare(src) {
+function mapToSquare(sourceArray) {
   let r = []
   for (let i = 0; i < src.length; i++ ) {
     r.push(src[i] * src[i])
