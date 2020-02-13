@@ -1,7 +1,10 @@
 mapToNegativize(sourceArray)
 {
-  let arr}
-mapToNoChange(sourceArray)
+  let arr=[];
+  
+  
+}
+  mapToNoChange(sourceArray)
 {}
 
 mapToDouble(sourceArray)
