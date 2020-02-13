@@ -2,7 +2,9 @@ mapToNegativize(sourceArray)
 {
   let arr=[];
   
+   for (let i = 0; i < src.length; i++ ) {
   
+  }
 }
   mapToNoChange(sourceArray)
 {}
