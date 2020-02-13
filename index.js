@@ -1,5 +1,6 @@
 mapToNegativize(sourceArray)
-{}
+{
+  let arr}
 mapToNoChange(sourceArray)
 {}
 
