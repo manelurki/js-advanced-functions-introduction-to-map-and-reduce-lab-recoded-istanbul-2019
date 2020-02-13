@@ -17,7 +17,8 @@ function mapToNoChange(sourcearray) {
 function mapToDouble( sourcearray) {
   let arr= []
   for (let i = 0; i <  sourcearray.length; i++ ) {
-    arr.push(2 *  sourcearray[i])
+     arr[i]=2 *  sourcearray[i]
+  
   }
    return arr
 }
@@ -25,7 +26,7 @@ function mapToDouble( sourcearray) {
 function mapToSquare( sourcearray) {
   let arr= []
   for (let i = 0; i <  sourcearray.length; i++ ) {
-    arr.push( sourcearray[i] *  sourcearray[i])
+   arr[i]=sourcearray[i] *  sourcearray[i];
   }
    return arr
 }
