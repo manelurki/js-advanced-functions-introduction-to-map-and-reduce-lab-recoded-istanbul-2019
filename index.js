@@ -24,30 +24,30 @@ function mapToDouble(sourceArray) {
 
 function mapToSquare(sourceArray) {
   let r = []
-  for (let i = 0; i < src.length; i++ ) {
-    r.push(src[i] * src[i])
+  for (let i = 0; i < sourceArray.length; i++ ) {
+    r.push(sourceArray[i] * sourceArray[i])
   }
   return r
 }
 
-function reduceToTotal(src, startingPoint=0) {
+function reduceToTotal(sourceArray, startingPoint=0) {
   let total = startingPoint
-  for (let i = 0; i < src.length; i++ ) {
-    total = total + src[i]
+  for (let i = 0; i < sourceArray.length; i++ ) {
+    total = total + sourceArray
   }
   return total
 }
 
-function reduceToAllTrue(src) {
-  for (let i = 0; i < src.length; i++ ) {
-    if (!src[i]) return false
+function reduceToAllTrue(sourceArray) {
+  for (let i = 0; i < sourceArray.length; i++ ) {
+    if (!sourceArray[i]) return false
   }
   return true
 }
 
-function reduceToAnyTrue(src) {
-  for (let i = 0; i < src.length; i++ ) {
-    if (src[i]) return true
+function reduceToAnyTrue(sourceArray) {
+  for (let i = 0; i < sourceArray.length; i++ ) {
+    if (sourceArray[i]) return true
   }
   return false
 }
